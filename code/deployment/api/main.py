@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 # Load the trained model from the correct path
-model_path = '/app/models/wine_rf_model.joblib'
+model_path = '/../../models/wine_rf_model.joblib'
 try:
     model = joblib.load(model_path)
     print("Model loaded successfully")
